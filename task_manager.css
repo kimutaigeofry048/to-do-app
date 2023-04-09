@@ -1,0 +1,54 @@
+/* Reset default margin and padding for the page */
+body, form {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Set a background color for the page */
+  body {
+    background-color: #b7bec4;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Style the form container */
+  form {
+    width: 60%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  }
+  
+  /* Style the form labels */
+  label {
+    display: block;
+    margin-bottom: 5px;
+    color: #007bff;
+  }
+  
+  /* Style the form input fields and textarea */
+  input[type="text"],
+  textarea,
+  input[type="date"],
+  select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  /* Style the form submit button */
+  input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* Style the form submit button on hover */
+  input[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+  
